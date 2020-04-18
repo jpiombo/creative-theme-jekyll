@@ -160,7 +160,8 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('https://image.shutterstock.com/image-photo/amazing-panoramic-view-cityscape-city-600w-750390067.jpg');
+    //background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
     .header-content {
