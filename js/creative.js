@@ -46,10 +46,3 @@
     new WOW().init();
 
 })(jQuery); // End of use strict
-
-
-    var feed = new Instafeed({
-      accessToken: InstagramToken, 
-      limit:12
-    });
-    feed.run();
