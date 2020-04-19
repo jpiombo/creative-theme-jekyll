@@ -161,20 +161,18 @@ header {
     @include background-cover;
     background-position: center;
     //background-image: url('../img/header.jpg');
-    text-align: center;
-    background-color: #222222;
-    .header-bg{
     background-image: url('../img/patrick-tomasso-gMes5dNykus-unsplash.jpg');
-    opacity: 0.5;   
-    z-index: 1000;
-    
+    text-align: center;
+    color: white;
+    .header-bg{
+        opacity: 0.5;   
+        z-index: 1000;
     }
     .header-content {
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
-        z-index: 1010;
         .header-content-inner {
             h1 {
                 font-weight: 700;
