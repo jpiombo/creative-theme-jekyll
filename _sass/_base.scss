@@ -161,30 +161,32 @@ header {
     @include background-cover;
     background-position: center;
     //background-image: url('../img/header.jpg');
-    background-image: url('../img/patrick-tomasso-gMes5dNykus-unsplash.jpg');
     text-align: center;
-    color: white;
+    color: #222222;
+ 
     .header-content {
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
-        .header-content-inner {
-            h1 {
-                font-weight: 700;
-                text-transform: uppercase;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-            hr {
-                margin: 30px auto;
-            }
-            p {
-                font-weight: 300;
-                color: rgba(white, .7);
-                font-size: 16px;
-                margin-bottom: 50px;
-            }
+        background-image: url('../img/patrick-tomasso-gMes5dNykus-unsplash.jpg');
+        opacity: 0.5;
+    }
+    .header-content-inner {
+        h1 {
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        hr {
+            margin: 30px auto;
+        }
+        p {
+            font-weight: 300;
+            color: rgba(white, .7);
+            font-size: 16px;
+            margin-bottom: 50px;
         }
     }
     @media (min-width: 768px) {
@@ -196,16 +198,17 @@ header {
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
             padding: 0 50px;
-            .header-content-inner {
-                max-width: 1000px;
+      
+        }
+        .header-content-inner {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            p {
+                font-size: 18px;
+                max-width: 80%;
                 margin-left: auto;
                 margin-right: auto;
-                p {
-                    font-size: 18px;
-                    max-width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
             }
         }
     }
