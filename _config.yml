@@ -14,3 +14,5 @@ telefono:  (341) 650-8501
 
 # Build settings
 markdown: kramdown
+
+logo: "./img/logo.svg"
