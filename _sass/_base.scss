@@ -79,6 +79,7 @@ aside {
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
+    z-index: 3000;
     .navbar-header .navbar-brand {
         color: $theme-primary;
         padding:5px;
@@ -92,6 +93,7 @@ aside {
         svg{
             height:100%;
         }
+      
     }
     .nav {
         > li {
@@ -120,6 +122,7 @@ aside {
     @media (min-width: 768px) {
         background-color: transparent;
         border-color: rgba(white, .3);
+        z-index: 3000;
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
             &:hover,
@@ -137,7 +140,7 @@ aside {
         &.affix {
             background-color: white;
             border-color: rgba($theme-dark, .5);
-            z-index: 3000;
+      
             .navbar-header .navbar-brand {
                 color: $theme-primary;
                 font-size: 14px;
