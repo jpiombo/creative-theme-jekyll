@@ -189,6 +189,11 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                img{
+                    svg{
+                        color: red;
+                    }
+                }
             }
             hr {
                 margin: 30px auto;
