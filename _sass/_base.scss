@@ -81,12 +81,16 @@ aside {
     @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-primary;
+        padding:5px;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
+        }
+        svg{
+            height:100%;
         }
     }
     .nav {
@@ -192,10 +196,7 @@ header {
                 img{
                     width: 80%;
                     max-width:500px;
-                    svg{ 
-                       color: red;
-                        fill:currentColor;
-                    }
+                  
                 }
             }
             hr {
