@@ -4,12 +4,12 @@ layout: default
 
 {% include nav.html %}
 <!-- Page Header -->
-<header>
+<header class="header-interior"
   {% if page.background %}
-  <div class="header-bg interior"
+  <div class="header-bg"
     style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
     {% else %}
-    <div class="header-bg interior">
+    <div class="header-bg">
       {% endif %}
     </div>
     <div class="header-content">
