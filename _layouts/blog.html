@@ -4,26 +4,28 @@ layout: default
 
 {% include nav.html %}
 <!-- Page Header -->
-<header class="header-interior"
-  {% if page.background %}
-  <div class="header-bg"
-    style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-    {% else %}
-    <div class="header-bg">
+<header class="header-interior" {% if page.background %} <div class="header-bg"
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <div class="header-bg">
+    {% endif %}
+  </div>
+  <div class="header-content">
+    <div class="header-content-inner">
+      <h1>
+        BLOG
+      </h1>
+      <hr>
+      <h2>
+        {{ page.title }}
+      </h2>
+      {% if page.description %}
+      <span class="subheading">{{ page.description }}</span>
       {% endif %}
-    </div>
-    <div class="header-content">
-      <div class="header-content-inner">
-        <h1>
-          {{ page.title }}
-        </h1>
-        {% if page.description %}
-        <span class="subheading">{{ page.description }}</span>
-        {% endif %}
-        <hr>
 
-      </div>
+
     </div>
+  </div>
 </header>
 <section>
   <div class="container">
