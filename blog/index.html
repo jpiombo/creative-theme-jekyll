@@ -1,27 +1,27 @@
 ---
 layout: page
-title: Posts
+title: Blog
 background: '/img/bg-post.jpg'
 ---
 
-{% for post in paginator.posts %}
+{% for blog in paginator.blogs %}
 
 <article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+  <a href="{{ blog.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <h2 class="post-title">{{ blog.title }}</h2>
+    {% if blog.subtitle %}
+    <h3 class="post-subtitle">{{ blog.subtitle }}</h3>
     {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+    <h3 class="post-subtitle">{{ blog.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
   <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
+    {% if blog.author %}
+    {{ blog.author }}
     {% else %}
     {{ site.author }}
     {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+    on {{ blog.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
   </p>
 </article>
 
