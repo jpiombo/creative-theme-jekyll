@@ -4,6 +4,7 @@ email: nixelnegociosinmobiliarios@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+logo: "./img/logo.svg"
 
 twitter_username: pixel
 instagram_username: nixelnegociosinmobiliarios
@@ -12,7 +13,17 @@ whatsapp: 5493416508501
 
 telefono:  (341) 650-8501
 
-# Build settings
-markdown: kramdown
 
-logo: "./img/logo.svg"
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+
