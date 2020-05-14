@@ -184,8 +184,8 @@ header {
         background-position: center;
         background-image: url(../img/patrick-tomasso-gMes5dNykus-unsplash.jpg);
         width: 100%;
-        .small{
-            max-height: 400px;
+        &.interior{
+            min-height: 400px;
         }
     }
     
@@ -220,6 +220,9 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
+        &.interior{
+            min-height: 400px;
+        }
         .header-content {
             position: absolute;
             top: 50%;
