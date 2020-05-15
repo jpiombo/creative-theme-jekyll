@@ -1,9 +1,16 @@
 # Site settings
-title: Nixel
+title: "Nixel - Negocios Inmobiliarios"
+sitename: Nixel
+author: Nixel
 email: nixelnegociosinmobiliarios@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://www.nixelnegociosinmobiliarios.com.ar" # the base hostname & protocol for your site
+
+keywords: "inmobiliaria rosario nixel negocios inmobiliarios"
+description: "Nixel Negocios inmobiliarios"
+mainlogo: "./img/logos-01.png"
+
 
 twitter_username: pixel
 instagram_username: nixelnegociosinmobiliarios
