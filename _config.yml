@@ -9,7 +9,7 @@ url: "https://www.nixelnegociosinmobiliarios.com.ar" # the base hostname & proto
 
 keywords: "inmobiliaria rosario nixel negocios inmobiliarios"
 description: "Nixel Negocios inmobiliarios"
-mainlogo: "./img/logos-01.png"
+mainlogo: "/img/logos-01.png"
 
 
 twitter_username: pixel
