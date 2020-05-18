@@ -41,5 +41,17 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
+    <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "Organization",
+          "name" : "{{ site.title }}",
+          "url" : "{{ site.description }}",
+          "sameAs" : [
+            "https://www.facebook.com/{{ facebook_username_link}}",
+            "https://www.instagram.com/{{ instagram_username}}",
+            "https://wa.me/{{ whatsapp}}"
+          ]
+        }
+    </script>
 </head>
