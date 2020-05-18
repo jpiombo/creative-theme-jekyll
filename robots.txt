@@ -1,7 +1,7 @@
 ---
 layout: none
 ---
-{% if jekyll.enviro == 'development' %}
+{% if jekyll.environment == 'development' %}
     User-agent: *
     Disallow: /
 {% else %} 
