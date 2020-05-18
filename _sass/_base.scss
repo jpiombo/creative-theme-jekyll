@@ -51,6 +51,11 @@ p {
     color: white;
 }
 
+.bg-green {
+    background-color: $theme-green;
+    color: white;
+}
+
 .text-faded {
     color: rgba(white, .7);
 }
@@ -74,8 +79,10 @@ aside {
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
+    z-index: 3000;
     .navbar-header .navbar-brand {
         color: $theme-primary;
+        padding:5px;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -83,6 +90,10 @@ aside {
         &:focus {
             color: darken($theme-primary, 10%);
         }
+        svg{
+            height:100%;
+        }
+      
     }
     .nav {
         > li {
@@ -111,6 +122,7 @@ aside {
     @media (min-width: 768px) {
         background-color: transparent;
         border-color: rgba(white, .3);
+        z-index: 3000;
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
             &:hover,
@@ -128,6 +140,7 @@ aside {
         &.affix {
             background-color: white;
             border-color: rgba($theme-dark, .5);
+      
             .navbar-header .navbar-brand {
                 color: $theme-primary;
                 font-size: 14px;
@@ -155,12 +168,27 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    //background-image: url('../img/header.jpg');
+    //background-image: url('../img/patrick-tomasso-gMes5dNykus-unsplash.jpg');
     text-align: center;
     color: white;
+    background-color:#222;
+    .header-bg{
+        opacity: 0.5;
+        z-index: 2000;
+        min-height: 100%;
+        position: absolute;
+        background-size: cover;
+        -o-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/patrick-tomasso-gMes5dNykus-unsplash.jpg);
+        width: 100%;
+    }
     .header-content {
         position: relative;
         text-align: center;
+        z-index: 2000;
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
@@ -169,6 +197,11 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+                svg{
+                    width: 80%;
+                    max-width:500px;
+                  
+                }
             }
             hr {
                 margin: 30px auto;

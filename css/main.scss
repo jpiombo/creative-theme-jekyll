@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Example Defaults
-$base-font-family: Roboto, Helvetica, Arial, sans-serif;
+$base-font-family: Roboto,Helvetica, Arial, sans-serif;
 // $base-font-size:   16px;
 // $small-font-size:  $base-font-size * 0.875;
 // $base-line-height: 1.5;
@@ -13,7 +13,7 @@ $base-font-family: Roboto, Helvetica, Arial, sans-serif;
 
 // $text-color:       #111;
 $background-color: #222;
- $brand-color:      #111;
+$brand-color:      #355E3B;
 
 // $grey-color:       #828282;
 // $grey-color-light: lighten($grey-color, 40%);
@@ -34,8 +34,10 @@ $background-color: #222;
 // }
 
 // variables.less
-$theme-primary: #F78279;
-$theme-dark: #355e3b;
+$theme-primary: #f07663;
+$theme-green: #0b5133;
+$theme-dark: #474f4a;
+$menu-dark: #474f4a;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
