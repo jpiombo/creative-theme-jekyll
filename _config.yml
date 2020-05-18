@@ -12,7 +12,7 @@ description: "Nixel Negocios inmobiliarios"
 mainlogo: "/img/logos-01.png"
 
 
-twitter_username: pixel
+twitter_username: nixelnegociosinmobiliarios
 instagram_username: nixelnegociosinmobiliarios
 facebook_username: nixelnegociosinmobiliarios
 facebook_username_link: nixelnegociosinmobiliarios-115626826800373
@@ -20,7 +20,7 @@ whatsapp: 5493416508501
 
 telefono:  (341) 650-8501
 
-google_analytics: UA-166786170-1
+google_analytics: UA-11111111-1 #UA-166786170-1
 
 # Build settings
 markdown: kramdown

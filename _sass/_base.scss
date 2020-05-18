@@ -185,6 +185,7 @@ header {
         background-image: url(../img/patrick-tomasso-gMes5dNykus-unsplash.jpg);
         width: 100%;
     }
+    
     .header-content {
         position: relative;
         text-align: center;
@@ -216,6 +217,9 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
+        &.header-interior{
+            min-height: 400px;
+        }
         .header-content {
             position: absolute;
             top: 50%;
@@ -335,6 +339,16 @@ header {
 .btn-primary {
     @include button-variant(white, $theme-primary, $theme-primary);
 }
+
+.btn-secondary {
+    @include button-variant(white, $theme-green, $theme-green);
+}
+
+.btn-dark {
+    @include button-variant(white, $theme-dark, $theme-dark);
+}
+
+
 
 .btn {
     @include sans-serif-font;
