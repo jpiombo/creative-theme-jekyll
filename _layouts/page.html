@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{% include nav.html %}
+<!-- Page Header -->
+<header class="header-interior">
+  {% if page.background %}
+  <div class="header-bg"
+    style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+    {% else %}
+    <div class="header-bg">
+      {% endif %}
+    </div>
+    <div class="header-content">
+      <div class="header-content-inner">
+        <h1>
+          {{ page.title }}
+        </h1>
+        {% if page.description %}
+        <span class="subheading">{{ page.description }}</span>
+        {% endif %}
+        <hr>
+
+      </div>
+    </div>
+
+</header>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 mx-auto">
+
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
+</section>
