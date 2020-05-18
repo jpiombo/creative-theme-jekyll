@@ -20,7 +20,7 @@ whatsapp: 5493416508501
 
 telefono:  (341) 650-8501
 
-google_analytics: UA-11111111-1 #UA-166786170-1
+google_analytics: UA-166786170-1
 
 # Build settings
 markdown: kramdown
@@ -35,3 +35,8 @@ plugins:
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 
+
+
+keywords: "inmobiliaria rosario nixel negocios inmobiliarios"
+description: "Nixel Negocios inmobiliarios"
+mainlogo: "/img/logos-01.png"
