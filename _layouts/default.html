@@ -3,6 +3,10 @@
 
 {% include head.html %}
 
+{% if jekyll.environment == 'development'
+<meta name="robots" content="noindex" />
+{% endif %}
+
 <body id="page-top">
   {% include shared-svg.html %}
 
