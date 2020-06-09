@@ -8,7 +8,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.nixelnegociosinmobiliarios.com.ar" # the base hostname & protocol for your site
 matricula: "Negocios Inmobiliarios C. I. N°1855"
 keywords: "inmobiliaria rosario nixel negocios inmobiliarios"
-description: "Nixel Negocios inmobiliarios"
 mainlogo: "/img/logos-01.png"
 
 
