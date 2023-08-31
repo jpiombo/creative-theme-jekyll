@@ -3,6 +3,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ site.title }}</title>
 
+    {% if jekyll.environment == 'development' %}
+    <meta name="robots" content="noindex, nofollow">
+    {% else %}
+    <meta name="google-site-verification" content="HxSY1o_I2sdphzZhbRJnDDBB12i95Lpy7GOygGo2uXY" />
+    {% endif %}
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="{{ site.keywords }}">
