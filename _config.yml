@@ -3,14 +3,12 @@ title: "Nixel - Negocios Inmobiliarios"
 sitename: Nixel
 author: Nixel
 email: nixelnegociosinmobiliarios@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: "Somos profesionales al servicio de tu proyecto de vanguardia. Gestionamos tu inversión, compra, venta, tasación, alquiler. Asesoramiento inmobiliario integral."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.nixelnegociosinmobiliarios.com.ar" # the base hostname & protocol for your site
-
-keywords: "inmobiliaria rosario nixel negocios inmobiliarios"
-description: "Nixel Negocios inmobiliarios"
+matricula: "Nixel Negocios Inmobiliarios C. I. N°1855"
+keywords: "inmobiliaria, rosario, nixel, negocios inmobiliarios, argentina, santa fe, inversiones, alquileres, tasaciones, venta, compra, inmuebles, profesionales, proyectos, asesoramiento"
 mainlogo: "/img/logos-01.png"
-
 
 twitter_username: nixelnegociosinmobiliarios
 instagram_username: nixelnegociosinmobiliarios
@@ -26,3 +24,6 @@ google_analytics: UA-166786170-1
 markdown: kramdown
 
 logo: "./img/logo.svg"
+
+plugins:
+  - jekyll-sitemap
