@@ -6,7 +6,7 @@ email: nixelnegociosinmobiliarios@gmail.com
 description: "Somos profesionales al servicio de tu proyecto de vanguardia. Gestionamos tu inversión, compra, venta, tasación, alquiler. Asesoramiento inmobiliario integral."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.nixelnegociosinmobiliarios.com.ar" # the base hostname & protocol for your site
-matricula: "Nixel Negocios Inmobiliarios C. I. N°1855 | C. I. N°2355 | C. I. N°2346"
+matricula: "Nixel Negocios Inmobiliarios <br/>C. I. N°2355 | C. I. N°2346 | C. I. N°1855"
 keywords: "inmobiliaria, rosario, nixel, negocios inmobiliarios, argentina, santa fe, inversiones, alquileres, tasaciones, venta, compra, inmuebles, profesionales, proyectos, asesoramiento"
 mainlogo: "/img/logos-01.png"
 
